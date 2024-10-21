@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Faisal Awan Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- library for scrolling effect on elements-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link href="style/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Styles for responsiveness (Samsung Galaxy S20 Ultra and iPhone 14 Pro Max) -->
+    <style>
+        /* Default styling for laptops and larger screens */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+
+        h1.display-1 {
+            font-size: 3rem;
+            -webkit-text-stroke: 1px #dee2e6;
+            color: #007bff;
+            text-align: center;
+        }
+
+        h1.position-absolute {
+            font-size: 2rem;
+            top: 20px;
+            color: #06b0b6 !important;
+            text-align: center;
+            width: 100%;
+        }
+
+        .row {
+            justify-content: center;
+        }
+
+        .row .col-md-6 {
+            margin-bottom: 30px;
+        }
+
+        .blog-date {
+            text-align: center;
+        }
+
+        .container-fluid {
+            padding: 30px;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .btn-outline-primary {
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        /* Responsive content and image */
+        .certificate-content {
+            background-color: teal;
+            border: 1px solid red;
+            border-radius: 15px;
+            box-shadow: teal 0px 0px 50px 0px;
+            margin: 20px auto;
+            padding: 20px;
+            color: white;
+        }
+
+        .certificate-image {
+            background-color: teal;
+            border: 1px solid red;
+            border-radius: 15px;
+            box-shadow: teal 0px 0px 50px 0px;
+            margin: 40px 0;
+        }
+
+        /* Responsive adjustments for smaller devices */
+        @media (max-width: 992px) {
+            .row {
+                flex-direction: column;
+            }
+
+            .col-md-6 {
+                width: 100%;
+            }
+
+            h1.display-1 {
+                font-size: 2.5rem;
+                margin-bottom: 10px;
+            }
+
+            h1.position-absolute {
+                font-size: 1.8rem;
+                top: 10px;
+            }
+
+            .container-fluid {
+                padding: 15px;
+            }
+
+            h5 {
+                font-size: 1rem;
+            }
+
+            .btn-outline-primary {
+                margin-top: 15px;
+            }
+
+            .certificate-content {
+                padding: 10px;
+                font-size: 1rem;
+            }
+
+            .certificate-image {
+                margin: 20px 0;
+            }
+        }
+
+        /* Styling for iPhone 14 Pro Max */
+        @media (max-width: 430px) {
+            h1.display-1 {
+                font-size: 2rem;
+                margin-bottom: 5px;
+            }
+
+            h1.position-absolute {
+                font-size: 1.5rem;
+                top: 5px;
+            }
+
+            .container-fluid {
+                padding: 10px;
+            }
+
+            h5 {
+                font-size: 0.9rem;
+            }
+
+            .btn-outline-primary {
+                margin-top: 10px;
+            }
+
+            .certificate-content {
+                padding: 8px;
+                font-size: 0.9rem;
+            }
+
+            .certificate-image {
+                margin: 15px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- UDEMY Section -->
+    <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">UDEMY</h1>
+        <h1 class="position-absolute text-uppercase text-primary wow flipInX">Google Gemini Pro</h1>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-evenly">
+            <div class="col-md-6 certificate-content wow slideInRight" id="service-text">
+                <p>
+                    <b>Completed the Google Advanced Data Analytics Certificate, mastering topics from data
+                        science foundations to machine learning, and Python programming. Gained expertise in
+                        analyzing, visualizing, and interpreting data to drive insights and solutions.<br>
+                        Verify the certificate at:
+                        <a href="#" style="font-size:40px;">Udemy</a>
+                    </b>
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly">
+            <div class="col-md-10 certificate-image wow slideInLeft" id="service-image">
+                <img src="gemini_pro.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- PowerBi Projects Section -->
+    <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white mt-5" style="-webkit-text-stroke: 1px #dee2e6;">LLM Development</h1>
+        <h1 class="position-absolute text-uppercase text-primary wow flipInX mt-5">Google Gemini Pro Projects</h1>
+    </div>
+
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linnkedin01.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">01</h4>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin02.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">02</h4>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin03.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">03</h4>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+
+
+                <div class="col-md-6 col-sm-12">
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin04.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">04</h4>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+
+
+                <div class="col-md-6 col-sm-12">
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin05.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">05</h4>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+
+
+                <div class="col-md-6 col-sm-12">
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin06.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">06</h4>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+
+
+
+                <div class="col-md-6 col-sm-12">
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Google_pro_linkedin07.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">07</h4>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+
+
+                <div class="col-md-6 col-sm-12">
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin08.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">08</h4>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+
+
+                <div class="col-md-6 col-sm-12">
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin09.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">09</h4>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog End -->
+
+    <!-- Bootstrap JS for responsive design -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
