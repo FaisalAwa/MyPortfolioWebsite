@@ -1,0 +1,64 @@
+/* General styling for all screen sizes */
+.navbar {
+    padding: 15px 30px;
+}
+
+.navbar-brand h1 {
+    font-size: 2.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 10px 15px;
+}
+
+/* Small screen adjustments for iPhone 14 Pro Max (approx 430px) and Galaxy S20 Ultra (approx 412px) */
+@media (max-width: 450px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 1.8rem; /* Reduce the brand size for smaller screens */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem; /* Reduce the font size slightly */
+        padding: 8px 10px;  /* Adjust padding for links */
+    }
+
+    .btn-outline-primary {
+        font-size: 0.85rem; /* Make the button text smaller */
+        padding: 8px 12px;
+    }
+}
+
+/* Adjustments for medium to large screens like tablets and desktops */
+@media (min-width: 768px) {
+    .navbar-brand h1 {
+        font-size: 2.2rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+}
+
+/* Large screens (e.g., desktops) */
+@media (min-width: 1200px) {
+    .navbar {
+        padding: 20px 50px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 2.8rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.1rem;
+    }
+
+    .btn-outline-primary {
+        font-size: 1rem;
+    }
+}
