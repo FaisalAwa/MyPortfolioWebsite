@@ -43,7 +43,36 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+    <!-- code for all the animations on the elements-->
+    <script>
+       new WOW().init();
+     </script>
+
+<!-- Navbar Start -->
+<nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+   <a href="index.html" class="navbar-brand ml-lg-3">
+       <h1 class="m-0 display-5"><span class="text-primary">Faisal </span>Awan</h1>
+   </a>
+   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+       <div class="navbar-nav m-auto py-0">
+           <a href="#home" class="nav-item nav-link active">Home</a>
+           <a href="#about" class="nav-item nav-link">About</a>
+           <a href="#qualification" class="nav-item nav-link">Quality</a>
+           <a href="#skill" class="nav-item nav-link">Skill</a>
+           <a href="#service" class="nav-item nav-link">Service</a>
+           <a href="#blog" class="nav-item nav-link">Blog</a>
+           <a href="#contact" class="nav-item nav-link">Contact</a>
+       </div>
+   </div>
+</nav>
+
+<!-- Navbar End -->
+
 <div class="position-relative d-flex align-items-center justify-content-center">
     <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Google</h1>
     <h1 class="position-absolute text-uppercase text-primary wow flipInX">Google Data Analytics Professional Certificates</h1>
@@ -71,5 +100,29 @@
         
     </div>
 
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+            <div class="container text-center py-5">
+                <div class="d-flex justify-content-center mb-4">
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="d-flex justify-content-center mb-3">
+                    <a class="text-white" href="#">Privacy</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Terms</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">FAQs</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Help</a>
+                </div>
+                <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Faisal Mehmood Awan</a>. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+        <!-- Footer End -->
 
 </body>

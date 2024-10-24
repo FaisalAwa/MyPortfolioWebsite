@@ -185,7 +185,35 @@
     </style>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+    <!-- code for all the animations on the elements-->
+    <script>
+       new WOW().init();
+     </script>
+
+<!-- Navbar Start -->
+<nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+   <a href="index.html" class="navbar-brand ml-lg-3">
+       <h1 class="m-0 display-5"><span class="text-primary">Faisal </span>Awan</h1>
+   </a>
+   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+       <div class="navbar-nav m-auto py-0">
+           <a href="#home" class="nav-item nav-link active">Home</a>
+           <a href="#about" class="nav-item nav-link">About</a>
+           <a href="#qualification" class="nav-item nav-link">Quality</a>
+           <a href="#skill" class="nav-item nav-link">Skill</a>
+           <a href="#service" class="nav-item nav-link">Service</a>
+           <a href="#blog" class="nav-item nav-link">Blog</a>
+           <a href="#contact" class="nav-item nav-link">Contact</a>
+       </div>
+   </div>
+</nav>
+
+<!-- Navbar End -->
     <!-- UDEMY Section -->
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">UDEMY</h1>
@@ -222,79 +250,208 @@
     <div class="container-fluid pt-5" id="blog">
         <div class="container">
             <div class="row">
+                
+                
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> Developed a custom search engine app using the LangChain framework and Groq API</h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./langchain_projects/Langchain_Project1.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">01</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+
+                        <ul>
+
+                            <li><strong>🔧 Key Features:</strong>
+                              <ul>
+                                <li>Integrated various tools and agents to optimize search efficiency.</li>
+                                <li>Designed to answer complex questions using a multi-tool approach.</li>
+                              </ul>
+                            </li>
+                            <li><strong>🌟 Tech Stack:</strong>
+                              <ul>
+                                <li>Built using Streamlit for an interactive and user-friendly interface.</li>
+                                <li>LangChain framework for seamless integration of language models and agents.</li>
+                                <li>Groq API for enhanced search capabilities.</li>
+                              </ul>
+                            </li>
+                            <li><strong>📊 Project Goal:</strong> To present search results in the most reliable and informative way.</li>
+                            <li><strong>💡 Use Case:</strong> Ideal for real-time question answering, knowledge discovery, and content exploration.</li>
+                          </ul>
+
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
+
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> Website & YouTube Summarization App</h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./langchain_projects/Langchain_Project2.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">02</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+
+                        <ul>
+                            <li>I’ve developed a powerful Website & YouTube Summarization App that provides quick, effective summaries for text content, helping users save time and get to the core of information faster.</li>
+                            <li><strong>🛠 Key Features:</strong>
+                              <ul>
+                                <li>Built with Streamlit for an easy-to-use, interactive interface.</li>
+                                <li>Integrated Groq API and Gemma-7b model for generating concise, high-quality summaries.</li>
+                                <li>Utilized the LangChain framework to streamline the app's performance and enhance flexibility.</li>
+                              </ul>
+                            </li>
+                            <li><strong>💡 Why This Matters:</strong>
+                              <ul>
+                                <li>Makes content more accessible by delivering fast, clear summaries.</li>
+                                <li>Ideal for professionals, researchers, and learners who need to grasp information quickly.</li>
+                                <li>Looking forward to feedback and open to collaborations in the world of AI-driven content solutions!</li>
+                              </ul>
+                            </li>
+                          </ul>
+                          
+
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
+
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> The Math GPT </h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./langchain_projects/Langchain_Project3.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">03</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+
+                        <ul>
+                            <li>Harnessing the power of AI to tackle the most intricate mathematical challenges, my latest app is designed to revolutionize how we solve problems.</li>
+                            <li><strong>🔍 What’s Inside:</strong>
+                              <ul>
+                                <li>Streamlit-powered interface: Smooth, interactive, and user-friendly.</li>
+                                <li>Gemma-9b open-source model: Delivers accurate solutions for even the toughest mathematical problems.</li>
+                                <li>Groq API integration: Enhances computational efficiency for seamless performance.</li>
+                                <li>LangChain framework: The backbone that ties everything together, providing a robust solution to complex math.</li>
+                              </ul>
+                            </li>
+                            <li><strong>💡 Why It’s a Game-Changer:</strong>
+                              <ul>
+                                <li>AI-powered problem-solving: Ideal for researchers, students, and professionals dealing with advanced mathematical concepts.</li>
+                                <li>Efficiency redefined: Speed and accuracy in tackling complex equations.</li>
+                                <li>Excited to continue pushing the boundaries of what AI can do! Let’s reimagine problem-solving together.</li>
+                              </ul>
+                            </li>
+                          </ul>
+                          
+                          
+
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
 
+             
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> Website & YouTube Summarization App</h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./langchain_projects/Langchain_Project4.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">04</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+
+                        <ul>
+                            <li>I’ve developed a powerful Website & YouTube Summarization App that provides quick, effective summaries for text content, helping users save time and get to the core of information faster.</li>
+                            <li><strong>🛠 Key Features:</strong>
+                              <ul>
+                                <li>Built with Streamlit for an easy-to-use, interactive interface.</li>
+                                <li>Integrated Groq API and Gemma-7b model for generating concise, high-quality summaries.</li>
+                                <li>Utilized the LangChain framework to streamline the app's performance and enhance flexibility.</li>
+                              </ul>
+                            </li>
+                            <li><strong>💡 Why This Matters:</strong>
+                              <ul>
+                                <li>Makes content more accessible by delivering fast, clear summaries.</li>
+                                <li>Ideal for professionals, researchers, and learners who need to grasp information quickly.</li>
+                                <li>Looking forward to feedback and open to collaborations in the world of AI-driven content solutions!</li>
+                              </ul>
+                            </li>
+                          </ul>
+                          
+
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
 
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6">A Custom Code Editor</h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./langchain_projects/Langchain_Project5.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">05</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+
+                        <ul>
+                            <li>I’ve built a dynamic Code Editor designed for ease of use and efficiency, leveraging the power of Gradio API and developed entirely on Streamlit.</li>
+                            <li><strong>🔧 Key Features:</strong>
+                              <ul>
+                                <li>Gradio API integration: Enabling real-time, interactive coding experiences.</li>
+                                <li>Streamlit interface: Built for seamless user interaction with a clean and intuitive design.</li>
+                                <li>Cross-functional capabilities: Ideal for developers, students, and coding enthusiasts who need a fast and flexible coding environment.</li>
+                              </ul>
+                            </li>
+                            <li><strong>💡 Why It Stands Out:</strong>
+                              <ul>
+                                <li>Provides a simple yet powerful tool for anyone to write, test, and execute code in real-time.</li>
+                                <li>Great for learning, experimenting, or building projects in an efficient and interactive way.</li>
+                                <li>Looking forward to hearing your thoughts and exploring collaborations in building more innovative tools for developers!</li>
+                              </ul>
+                            </li>
+                          </ul>
+                          
+                          
+
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
 
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> PDF Query System </h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./langchain_projects/Langchain_Project6.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">06</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+
+                        <ul>
+                       
+                            <li>I’ve developed a PDF Query Tool that leverages the power of Nvidia’s Nim Lama3-70b-Instruct model to make document analysis faster and more efficient. Built on LangChain and deployed with Streamlit, this tool simplifies the process of querying and extracting information from PDFs.</li>
+                            <li><strong>🛠 Project Highlights:</strong>
+                              <ul>
+                                <li>🔍 <strong>Nvidia Nim Lama3-70b-Instruct model:</strong> Delivers high-performance, accurate results for complex queries.</li>
+                                <li>💻 <strong>Streamlit Interface:</strong> Clean, interactive, and user-friendly for seamless document analysis.</li>
+                                <li>⚙️ <strong>LangChain Framework:</strong> Ensures robust integration and flexibility for efficient document querying.</li>
+                              </ul>
+                            </li>
+                            <li><strong>💡 Why This is Important:</strong>
+                              <ul>
+                                <li>📄 Enables users to quickly retrieve relevant information from large PDFs.</li>
+                                <li>🚀 A game-changer for researchers, legal professionals, and anyone working with extensive documentation.</li>
+                                <li>📈 Pushing the boundaries of AI-driven document processing—looking forward to your feedback!</li>
+                              </ul>
+                            </li>
+                          </ul>
+                             
+                                
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
 
@@ -306,6 +463,30 @@
     </div>
 
     <!-- Blog End -->
+
+         <!-- Footer Start -->
+         <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+            <div class="container text-center py-5">
+                <div class="d-flex justify-content-center mb-4">
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="d-flex justify-content-center mb-3">
+                    <a class="text-white" href="#">Privacy</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Terms</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">FAQs</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Help</a>
+                </div>
+                <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Faisal Mehmood Awan</a>. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+        <!-- Footer End -->
 
     <!-- Bootstrap JS for responsive design -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

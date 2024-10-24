@@ -184,8 +184,37 @@
         }
     </style>
 </head>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
 
-<body>
+    <!-- code for all the animations on the elements-->
+    <script>
+       new WOW().init();
+     </script>
+
+<!-- Navbar Start -->
+<nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+   <a href="index.html" class="navbar-brand ml-lg-3">
+       <h1 class="m-0 display-5"><span class="text-primary">Faisal </span>Awan</h1>
+   </a>
+   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+       <div class="navbar-nav m-auto py-0">
+           <a href="#home" class="nav-item nav-link active">Home</a>
+           <a href="#about" class="nav-item nav-link">About</a>
+           <a href="#qualification" class="nav-item nav-link">Quality</a>
+           <a href="#skill" class="nav-item nav-link">Skill</a>
+           <a href="#service" class="nav-item nav-link">Service</a>
+           <a href="#blog" class="nav-item nav-link">Blog</a>
+           <a href="#contact" class="nav-item nav-link">Contact</a>
+       </div>
+   </div>
+</nav>
+
+<!-- Navbar End -->
+
+
     <!-- UDEMY Section -->
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">UDEMY</h1>
@@ -222,119 +251,239 @@
     <div class="container-fluid pt-5" id="blog">
         <div class="container">
             <div class="row">
+
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> Chat Application on Gemini Pro </h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./gemini_pro_media/Gemini_pro_linnkedin01.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">01</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                            <li>I've developed a seamless chat app using Gemini Pro, featuring real-time messaging and comprehensive chat history recording for better user experience.</li>
+                            <li>Key Features:
+                              <ul>
+                                <li>🗨️ Real-time messaging</li>
+                                <li>📚 Chat history recording</li>
+                                <li>🔐 Secure communication</li>
+                              </ul>
+                            </li>
+                            <li>Transform your communication experience with this innovative app!</li>
+                          </ul>       
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
+            
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> Multilanguage Invoice Text Extractor </h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./gemini_pro_media/Gemini_pro_linkedin02.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">02</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                                <li>Tech Stack: Gemini-1.5-Flash, Streamlit</li>
+                                <li>I've developed a powerful app that extracts text from invoices in multiple languages using Gemini-1.5-Flash, all wrapped in a user-friendly Streamlit interface.</li>
+                                <li>Key Features:
+                                  <ul>
+                                    <li>🗂️ Multilanguage support for diverse invoices</li>
+                                    <li>🔍 Accurate text extraction</li>
+                                    <li>⚡ Fast and efficient processing</li>
+                                  </ul>
+                                </li>
+                                <li>This tool aims to streamline invoice processing, making it quicker and more accessible for businesses of all sizes.</li>    
+                          </ul>       
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> Document Question Answer Application </h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./gemini_pro_media/Gemini_pro_linkedin03.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">03</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                            <li>Tech Stack: Gemma Model, Streamlit</li>
+                            <li>I've developed an innovative Question Answer application using the Gemma Model, designed to process and respond to queries based on your PDF documents, all through a sleek Streamlit interface.</li>
+                            <li>Key Features:
+                              <ul>
+                                <li>📄 Seamless PDF document integration</li>
+                                <li>🤖 Intelligent and accurate question answering</li>
+                                <li>⚡ Fast and user-friendly interface</li>
+                              </ul>
+                            </li>
+                            <li>This tool aims to enhance how you interact with your documents, providing instant and precise answers to your questions.</li>
+                          </ul>
+                                
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
-
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> Multi-PDF Chat Application </h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./gemini_pro_media/Gemini_pro_linkedin04.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">04</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                            <li>Tech Stack: Gemini Pro, Streamlit</li>
+                            <li>I've developed a cutting-edge chat application using Gemini Pro, built on Streamlit, allowing users to upload and interact with multiple PDFs simultaneously. Just give a prompt, and get the desired output from your documents instantly!</li>
+                            <li>Key Features:
+                              <ul>
+                                <li>📚 Upload and chat with multiple PDFs at once</li>
+                                <li>🔍 Get precise answers to your prompts</li>
+                                <li>⚡ User-friendly and efficient interface</li>
+                              </ul>
+                            </li>
+                            <li>This tool revolutionizes how you interact with your digital library, making information retrieval quick and easy.</li>
+                          </ul>
+                               
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
 
+
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> Application Tracking System </h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./gemini_pro_media/Gemini_pro_linkedin05.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">05</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                            <li>Tech Stack: Google Gemini-Pro</li>
+                            <li>I've developed an advanced Application Tracking System using Google Gemini-Pro. This powerful tool allows users to input their CVs and job descriptions to analyze and match their skills with job requirements seamlessly.</li>
+                            <li>Key Features:
+                              <ul>
+                                <li>📄 Input your CV and job descriptions</li>
+                                <li>🔍 Analyze CVs against job requirements</li>
+                                <li>🤖 Find skill matches instantly</li>
+                              </ul>
+                            </li>
+                            <li>This system is designed to streamline the job application process, making it easier for job seekers to find their perfect match and for employers to identify the best candidates.</li>
+                          </ul>          
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
 
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> Nutritionist App </h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./gemini_pro_media/Gemini_pro_linkedin06.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">06</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                            <li>Tech Stack: Gemini-1.5-Flash, Streamlit</li>
+                            <li>I've developed an innovative Nutritionist App using Gemini-1.5-Flash, built on Streamlit. This app allows users to input food images and calculates calories, carbohydrates, and other nutritional information, providing health recommendations based on the analysis.</li>
+                            <li>Key Features:
+                              <ul>
+                                <li>📸 Input food images for analysis</li>
+                                <li>🍎 Calculate calories and carbohydrates</li>
+                                <li>🔍 Identify each food item and its nutritional value</li>
+                                <li>💡 Get health recommendations instantly</li>
+                              </ul>
+                            </li>
+                            <li>This app aims to make healthy eating easier by providing quick and accurate nutritional insights.</li>
+                          </ul>
+                                        
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
 
 
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> Smart Application Tracking System</h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./gemini_pro_media/Google_pro_linkedin07.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">07</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                            <li>I've developed a Smart Application Tracking System designed to revolutionize the job application process. This system takes a CV and a job description as inputs, analyzes the match, and identifies any missing skills or keywords from the candidate's side.</li>
+                            <li>Key Features:
+                              <ul>
+                                <li>📄 Input CV and job descriptions</li>
+                                <li>🔍 Analyze and match skills with job requirements</li>
+                                <li>🔑 Identify missing skills and keywords for improvement</li>
+                              </ul>
+                            </li>
+                            <li>This tool aims to help job seekers optimize their applications and increase their chances of landing the perfect job.</li>
+                          </ul>
+                                  
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
 
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> YouTube Video Transcriber </h5>
                     <video class="img-fluid rounded w-100" controls>
                         <source src="./gemini_pro_media/Gemini_pro_linkedin08.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">08</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+
+                            <li>Tech Stack: Gemini-Pro, Streamlit</li>
+                            <li>I've developed a powerful YouTube Video Transcriber using Gemini-Pro, built on Streamlit. This app takes a YouTube video link as input and provides an organized summary of the entire video, making it easy to grasp the key points quickly.</li>
+                            <li>Key Features:
+                              <ul>
+                                <li>🔗 Input YouTube video link</li>
+                                <li>📝 Get a comprehensive and organized summary</li>
+                                <li>⚡ User-friendly interface for quick insights</li>
+                              </ul>
+                            </li>
+                            <li>This tool is perfect for anyone looking to save time while getting the most out of their video content.</li>
+                          </ul>
+                          
+                                        
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
 
                 <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6">Use Gemini Pro to Convert Natural Language to SQL Converter</h5>
                     <video class="img-fluid rounded w-100" controls>
-                        <source src="./gemini_pro_media/Gemini_pro_linkedin09.mp4" type="video/mp4">
+                        <source src="./gemini_pro_media/Google_pro_linkedin07.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <div class="blog-date">
-                        <h4 class="font-weight-bold mb-n1">09</h4>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+
+                        <ul>
+                            <li>Tech Stack: Google Gemini Pro, Streamlit</li>
+                            <li>I've developed an innovative Streamlit app using Google Gemini Pro that takes natural language input and converts it into SQL queries, interacting with the database to retrieve results seamlessly.</li>
+                            <li>Key Features:
+                              <ul>
+                                <li>🗣️ Natural language input for ease of use</li>
+                                <li>💻 Converts queries into SQL</li>
+                                <li>📊 Interacts with the database and retrieves results</li>
+                                <li>⚡ User-friendly interface for efficient data retrieval</li>
+                              </ul>
+                            </li>
+                            <li>This tool aims to simplify database interactions, making it accessible for everyone to query databases without needing to know SQL.</li>
+                          </ul>
+                          
+                                  
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Check It Out</a>
                 </div>
 
 
@@ -344,6 +493,30 @@
     </div>
 
     <!-- Blog End -->
+
+         <!-- Footer Start -->
+         <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+            <div class="container text-center py-5">
+                <div class="d-flex justify-content-center mb-4">
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="d-flex justify-content-center mb-3">
+                    <a class="text-white" href="#">Privacy</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Terms</a>
+                    <span class="px-3">|</span> 
+                    <a class="text-white" href="#">FAQs</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Help</a>
+                </div>
+                <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Faisal Mehmood Awan</a>. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+        <!-- Footer End -->
 
     <!-- Bootstrap JS for responsive design -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
