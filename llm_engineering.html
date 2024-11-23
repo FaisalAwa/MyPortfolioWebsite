@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Faisal Awan Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- library for scrolling effect on elements-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link href="style/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Styles for responsiveness (Samsung Galaxy S20 Ultra and iPhone 14 Pro Max) -->
+    <style>
+        /* Default styling for laptops and larger screens */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+
+        h1.display-1 {
+            font-size: 3rem;
+            -webkit-text-stroke: 1px #dee2e6;
+            color: #007bff;
+            text-align: center;
+        }
+
+        h1.position-absolute {
+            font-size: 2rem;
+            top: 20px;
+            color: #06b0b6 !important;
+            text-align: center;
+            width: 100%;
+        }
+
+        .row {
+            justify-content: center;
+        }
+
+        .row .col-md-6 {
+            margin-bottom: 30px;
+        }
+
+        .blog-date {
+            text-align: center;
+        }
+
+        .container-fluid {
+            padding: 30px;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .btn-outline-primary {
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        /* Responsive content and image */
+        .certificate-content {
+            background-color: teal;
+            border: 1px solid red;
+            border-radius: 15px;
+            box-shadow: teal 0px 0px 50px 0px;
+            margin: 20px auto;
+            padding: 20px;
+            color: white;
+        }
+
+        .certificate-image {
+            background-color: teal;
+            border: 1px solid red;
+            border-radius: 15px;
+            box-shadow: teal 0px 0px 50px 0px;
+            margin: 40px 0;
+        }
+
+        /* Responsive adjustments for smaller devices */
+        @media (max-width: 992px) {
+            .row {
+                flex-direction: column;
+            }
+
+            .col-md-6 {
+                width: 100%;
+            }
+
+            h1.display-1 {
+                font-size: 2.5rem;
+                margin-bottom: 10px;
+            }
+
+            h1.position-absolute {
+                font-size: 1.8rem;
+                top: 10px;
+            }
+
+            .container-fluid {
+                padding: 15px;
+            }
+
+            h5 {
+                font-size: 1rem;
+            }
+
+            .btn-outline-primary {
+                margin-top: 15px;
+            }
+
+            .certificate-content {
+                padding: 10px;
+                font-size: 1rem;
+            }
+
+            .certificate-image {
+                margin: 20px 0;
+            }
+        }
+
+        /* Styling for iPhone 14 Pro Max */
+        @media (max-width: 430px) {
+            h1.display-1 {
+                font-size: 2rem;
+                margin-bottom: 5px;
+            }
+
+            h1.position-absolute {
+                font-size: 1.5rem;
+                top: 5px;
+            }
+
+            .container-fluid {
+                padding: 10px;
+            }
+
+            h5 {
+                font-size: 0.9rem;
+            }
+
+            .btn-outline-primary {
+                margin-top: 10px;
+            }
+
+            .certificate-content {
+                padding: 8px;
+                font-size: 0.9rem;
+            }
+
+            .certificate-image {
+                margin: 15px 0;
+            }
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+    <!-- code for all the animations on the elements-->
+    <script>
+       new WOW().init();
+     </script>
+
+<!-- Navbar Start -->
+<nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+   <a href="index.html" class="navbar-brand ml-lg-3">
+       <h1 class="m-0 display-5"><span class="text-primary">Faisal </span>Awan</h1>
+   </a>
+   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+       <div class="navbar-nav m-auto py-0">
+           <a href="#home" class="nav-item nav-link active">Home</a>
+           <a href="#about" class="nav-item nav-link">About</a>
+           <a href="#qualification" class="nav-item nav-link">Quality</a>
+           <a href="#skill" class="nav-item nav-link">Skill</a>
+           <a href="#service" class="nav-item nav-link">Service</a>
+           <a href="#blog" class="nav-item nav-link">Blog</a>
+           <a href="#contact" class="nav-item nav-link">Contact</a>
+       </div>
+   </div>
+</nav>
+
+<!-- Navbar End -->
+
+
+    <!-- UDEMY Section -->
+    <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">UDEMY</h1>
+        <h1 class="position-absolute text-uppercase text-primary wow flipInX">LLM ENGINEERING</h1>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-evenly">
+            <div class="col-md-6 certificate-content wow slideInRight" id="service-text">
+                <p>
+                    <b>Build advanced Generative AI products using cutting-edge models and frameworks. Experiment with over 20 groundbreaking AI models, including Frontier and Open-Source models.Develop proficiency with platforms like HuggingFace, LangChain, and Gradio.Implement state-of-the-art techniques such as RAG (Retrieval-Augmented Generation), QLoRA fine-tuning, and Agents.
+                        <a href="https://www.udemy.com/certificate/UC-55028d79-243d-4155-8bf9-cdbeda0a706c/" style="font-size:40px;">Udemy</a>
+                    </b>
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly">
+            <div class="col-md-10 certificate-image wow slideInLeft" id="service-image">
+                <img src="course_llm_engineering_certificate.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- PowerBi Projects Section -->
+    <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white mt-5" style="-webkit-text-stroke: 1px #dee2e6;">MASTERING AI</h1>
+        <h1 class="position-absolute text-uppercase text-primary wow flipInX mt-5">LLM Projects</h1>
+    </div>
+
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> AI COMPANY BROUCHURE GENERATOR </h5>
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linnkedin01.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                            <li>Created a product that builds a Brochure for a company to be used for prospective clients, investors and potential recruits.
+
+                                We will be provided a company name and their primary website.</li>
+                            <li>Key Features:
+                              <ul>
+                                <li>Give the company name and url</li>
+                                <li>Extraction of content from website</li>
+                                <li>Brouchure Generation in Json Format</li>
+                                <li> Brochure Generation in Markdown</li>
+                                
+                              </ul>
+                            </li>
+                            <li>Transform your communication experience with this innovative app!</li>
+                          </ul>       
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/FaisalAwa/BrouchureGenerator">Check It Out</a>
+                </div>
+
+            
+                <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> AIRLINE AI ASSISTANT </h5>
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin02.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                                <li>Tech Stack: OpenAi, Ollama, Claude , Gradio</li>
+                                <li>A complete Airline ai assistant that will assistant the passenger by providing infomation regarding travel places, their cost and will generate the image of the place as well.</li>
+                                
+                          </ul>       
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/FaisalAwa/AirLine_AIAssistant">Check It Out</a>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> MEETING MINUTES GENERATOR </h5>
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin03.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                            <li>Tech Stack: OpenAi, Ollama, Claude ,LLama, Qwen2,  Gradio</li>
+                            <li>I've developed an app that will convert the audio into a beautiful and summarizing meeting minutes</li>
+                          
+                          </ul>
+                                
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/FaisalAwa/MeetingMinutesGenerator">Check It Out</a>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> OPTIMIZED CODE GENERATOR </h5>
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin04.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                            <li>Tech Stack: Gpt4-O-mini, Claude, Gradio</li>
+                            <li>Engineered an AI system to optimize Python code into high-performance C++, achieving an unprecedented 60,000x boost.</li>
+                         
+                          </ul>
+                               
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/FaisalAwa/OptimizedCodeGenerator">Check It Out</a>
+                </div>
+
+
+
+                <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> EXPERT KNOWLEDGE WORKER </h5>
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin05.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                            <li>Tech Stack: ChatGPT-4o, Tools, Agents</li>
+                            <li>A question answering agent that is an expert knowledge worker
+                                To be used by employees of Insurellm, an Insurance Tech company
+                                The agent needs to be accurate and the solution should be low cost.
+                                This project will use RAG (Retrieval Augmented Generation) to ensure our question/answering assistant has high accuracy.</li>
+                            <li>Key Features:
+                              <ul>
+                                <li>Use of Retirevel Augmented Generation</li>
+                                <li>nclosed all the comnpany information into a knowledge base</li>
+                                <li>Query What you want to know about company</li>
+                                <li>Fast And Accurate Responses</li>
+                                <li>Use of Langchain</li>
+                                
+                              </ul>
+                            </li>
+                           
+                          </ul>          
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/FaisalAwa/ExpertKnowledgeWorker">Check It Out</a>
+                </div>
+
+
+                <div class="col-md-6 col-sm-12">
+                    <h5 style="color:#06b0b6"> PRICE IS RIGHT !! </h5>
+                    <video class="img-fluid rounded w-100" controls>
+                        <source src="./gemini_pro_media/Gemini_pro_linkedin06.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                   
+                    <h6 class="font-weight-medium mb-4"> 
+                        <ul>
+                            <li>Tech Stack: Gemini-1.5-Flash, Streamlit</li>
+                            <li>We will build an Autonomous Agentic Al framework, Watches for deals being published online, Estimates the price of the product, Sends a push notification when it finds great opportunities.</li>
+                            <li>Key Features:
+                              <ul>
+
+                                <li>SEVEN Agents will collaborate in our framework</li>
+                                <li>GPT-40 model will identify the deals from an RSS feed</li>
+                                <li>Our frontier-busting fine-tuned model will estimate prices</li>
+                                <li> We'll also use a Frontier Model with a massive RAG db</li>
+                              </ul>
+                            </li>
+                          
+                          </ul>
+                                        
+                    </h6>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/FaisalAwa/AIDealsPricePredictor">Check It Out</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog End -->
+
+         <!-- Footer Start -->
+         <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+            <div class="container text-center py-5">
+                <div class="d-flex justify-content-center mb-4">
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="d-flex justify-content-center mb-3">
+                    <a class="text-white" href="#">Privacy</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Terms</a>
+                    <span class="px-3">|</span> 
+                    <a class="text-white" href="#">FAQs</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Help</a>
+                </div>
+                <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Faisal Mehmood Awan</a>. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+    <!-- Bootstrap JS for responsive design -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
